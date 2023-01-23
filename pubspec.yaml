@@ -1,0 +1,109 @@
+name: stgo_routes
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.0.0-dev.68.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  map_view:
+    git:
+      url: git://github.com/Eimji/flutter_google_map_view.git
+  url_launcher: ^5.0.0
+  animated_background: ^1.0.1
+  shared_preferences: ^0.5.0
+  http: ^0.12.0
+  random_color: ^1.0.3
+  flutter_typeahead: ^0.6.1
+  latlong: ^0.6.1
+  google_maps_flutter:
+    path: ../google_maps_flutter
+  # permission_handler: ^2.1.2
+  geolocator: ^5.1.1
+  smooth_star_rating: ^1.0.1
+  wave: ^0.0.8
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/concho_routes.png
+    - assets/images/public_transport.png
+    - assets/images/favorites.png
+    - assets/images/omsa.png
+    - assets/images/flutter_logo.png
+    - assets/images/routes_nav.png
+    - assets/images/routes_nav_2.png
+    - assets/images/routes_nav_empty.png
+    - assets/images/top_car.png
+    - assets/images/nav_icon_p.png
+    - assets/images/nav_icon_m.png
+    - assets/images/nav_icon_k.png
+    - assets/images/nav_icon_pa.png
+    - assets/images/nav_icon_a.png
+    - assets/images/nav_icon_g.png
+    - assets/images/nav_icon_f.png
+    - assets/images/bus_stop.png
+    - assets/images/bus_stop2.png
+    - assets/images/bus_stop_icon.png
+    - assets/images/bus_stop_icon_white.png
+    - assets/images/start_nav_icon.png
+    - assets/images/destination_nav_icon.png
+    - assets/images/navigation_point.png
+    - assets/images/nav_walk.png
+    - assets/images/calc_routes.jpg
+    - assets/images/car_routes.jpg
+    - assets/images/omsa_routes.jpg
+    - assets/images/calc_routes_header.jpg
+    - assets/images/car_routes_header.jpg
+    - assets/images/omsa_routes_header.jpg
+    - assets/maps/styles.json
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/Oswald-Regular.ttf
+        - asset: assets/fonts/Oswald-Medium.ttf
+          weight: 700
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
